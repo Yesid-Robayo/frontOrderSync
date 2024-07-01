@@ -1,0 +1,109 @@
+{
+    "navLinks": {
+        "metrics": "Métricas",
+        "orders": "Pedidos",
+        "createNewOrder": "Crear nuevo pedido",
+        "customers": "Clientes",
+        "createNewCustomer": "Crear nuevo cliente"
+    },
+    "navBar": {
+        "title": "OrderSync"
+    },
+    "metrics": {
+        "last30Days": "Últimos 30 días",
+        "sellsForDay": "Ventas por día",
+        "stadisticsGlobal": "Estadísticas globales",
+        "totalOrders": "Total de pedidos",
+        "productMostSold": "Producto más vendido",
+        "totalCustomers": "Total de clientes",
+        "sellsIn30Days": "Ventas en los últimos 30 días",
+        "cityMostOrders": "Ciudad con más pedidos",
+        "sells": "Ventas",
+        "otherCities": "Otras ciudades"
+    },
+    "OrderList": {
+        "search": "Buscar...",
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "page": "Página",
+        "of": "de",
+        "products": "Productos",
+        "quantity": "Cantidad",
+        "title": "Lista de Ordenes",
+        "status": {
+            "allStatus": "Todos los estados",
+            "pending": "Pendiente",
+            "en route": "En ruta",
+            "delivered": "Entregado",
+            "cancelled": "Cancelado"
+        },
+        "shippingRule": {
+            "allRule": "Todas las reglas de envío",
+            "home delivery": "Entrega a domicilio",
+            "pick up": "Recogida en tienda"
+        },
+        "order": {
+            "idOrder": "N° de la orden",
+            "customer": "Cliente",
+            "status": "Estado",
+            "shippingRule": "Detalle del envío",
+            "total": "Total",
+            "date": "Fecha",
+            "paid": "Pagado",
+            "userID": "ID de usuario",
+            "comments": "Comentarios",
+            "yes": "Sí",
+            "no": "No",
+            "orderStatusChangeSuccess": "Estado de la orden cambiado con éxito",
+            "orderStatusChangeError": "Error al cambiar el estado de la orden"
+        }
+    },
+    "createOrder": {
+        "title": "Crear nueva orden",
+        "customer": "Cliente",
+        "selectCustomer": "Seleccionar cliente",
+        "shippingRule": "Forma de envío",
+        "products": "Productos",
+        "quantity": "Cantidad",
+        "comments": "Comentarios",
+        "createOrderSuccess": "Orden creada con éxito",
+        "createOrderError": "Error al crear la orden",
+        "home delivery": "Entrega a domicilio",
+        "pick up": "Recogida en tienda",
+        "seachProducts": "Buscar productos",
+        "search": "Buscar...",
+        "product": "Producto",
+        "total": "Total",
+        "createOrder": "Crear orden"
+    },
+    "userList": {
+        "search": "Buscar...",
+        "previous": "Anterior",
+        "next": "Siguiente",
+        "page": "Página",
+        "of": "de",
+        "title": "Lista de Usuarios",
+        "user": {
+            "id": "ID",
+            "name": "Nombre",
+            "email": "Correo",
+            "address": "Dirección",
+            "city": "Ciudad"
+        },
+        "city": "Ciudad",
+        "allCities": "Todas las ciudades",
+        "noUsersFound": "No se encontraron usuarios"
+    },
+    "createUser":{
+        "title": "Crear nuevo usuario",
+        "name": "Nombre",
+        "email": "Correo",
+        "address": "Dirección",
+        "city": "Ciudad",
+        "phone": "Teléfono",
+        "createUser": "Crear usuario",
+        "createUserSuccess": "Usuario creado con éxito",
+        "createUserError": "Error al crear el usuario",
+        "selectCity": "Seleccionar ciudad"
+    }
+}

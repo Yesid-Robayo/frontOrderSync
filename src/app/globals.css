@@ -2,32 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+/* Asegura que el scrollbar siempre esté presente */
+html {
+  overflow-x: hidden;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  overflow-y: scroll; /* Siempre muestra el scroll vertical */
+  scrollbar-width: thin; /* Grosor del scroll, ajusta según necesites */
+  scrollbar-color: #cccccc #f0f0f0; /* Color del scroll, ajusta según tu diseño */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Opcional: Ajusta el tamaño del scroll en navegadores específicos */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho del scroll en Chrome/Safari */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Color de fondo del scroll */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cccccc; /* Color de la barra de desplazamiento */
+  border-radius: 6px; /* Bordes redondeados de la barra de desplazamiento */
+  border: 3px solid #f0f0f0; /* Borde alrededor de la barra de desplazamiento */
 }
