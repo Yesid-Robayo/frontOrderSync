@@ -30,7 +30,7 @@ Esta aplicación proporciona una visualización detallada de las estadísticas d
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/tu_usuario/estadisticas-tienda.git
+   git clone https://github.com/Yesid-Robayo/frontOrderSync.git
 
 2. Descarga el repositorio del backEnd y sigue los pasos
 
