@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aplicación de Estadísticas de Tienda
 
-## Getting Started
+## Descripción
 
-First, run the development server:
+Esta aplicación proporciona una visualización detallada de las estadísticas de ventas de una tienda. Permite a los administradores ver métricas clave sobre los productos vendidos, las ubicaciones con mayores ventas, y otras estadísticas importantes para la gestión eficiente del negocio.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Características
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Visualización de ventas por producto**: Muestra los productos más vendidos y las cantidades vendidas.
+- **Análisis de ventas por ubicación**: Indica las ciudades con mayores ventas.
+- **Reportes de ventas**: Genera reportes periódicos con las métricas más importantes.
+- **Interfaz amigable**: Proporciona una interfaz de usuario intuitiva y fácil de usar.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Algunas Imagenes 
+  
+![Screenshot 2024-07-29 134613](https://github.com/user-attachments/assets/b04c4933-945b-49c9-b45f-2aa3fd0cc2ed)
+![Screenshot 2024-07-29 134556](https://github.com/user-attachments/assets/4105f90d-a909-4353-a3f3-cec5f1dc8400)
+![Screenshot 2024-07-29 134544](https://github.com/user-attachments/assets/f1f7ccfc-3d0a-446e-8349-ebe02afc506e)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Tecnologías Utilizadas
 
-## Learn More
+- **Frontend**: Next.js, React.js, Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+## Requisitos Previos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js (v14 o superior)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Instalación
 
-## Deploy on Vercel
+1. Clona este repositorio:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone https://github.com/tu_usuario/estadisticas-tienda.git
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Descarga el repositorio del backEnd y sigue los pasos
+
+   https://github.com/Yesid-Robayo/backOrderSync
+
+4. Instala las dependencia necesarias
+   
+  ```bash
+   npm i
+
+4. Ejecuta la aplicacion
+
+ ```bash
+   next dev
