@@ -38,10 +38,11 @@ Esta aplicación proporciona una visualización detallada de las estadísticas d
 
 4. Instala las dependencia necesarias
    
-  ```bash
-   npm i
+    ```bash
+    npm i
+
 
 4. Ejecuta la aplicacion
 
- ```bash
-   next dev
+   ```bash
+     next dev
