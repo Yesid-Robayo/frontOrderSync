@@ -41,8 +41,10 @@ Esta aplicación proporciona una visualización detallada de las estadísticas d
     ```bash
    npm i
 
-5. Ingresa al localhost:3000 para poder visualizar el funcionamiento correctamente
 4. Ejecuta la aplicacion
 
    ```bash
    next dev
+   
+5. Ingresa al localhost:3000 para poder visualizar el funcionamiento correctamente
+
